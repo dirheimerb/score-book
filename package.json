@@ -1,0 +1,33 @@
+{
+  "name": "scorebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently npm:start",
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirheimerb/scorebook.git"
+  },
+  "keywords": [],
+  "author": "Bradley Dirheimer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirheimerb/scorebook/issues"
+  },
+  "homepage": "https://github.com/dirheimerb/scorebook#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "@types/googlemaps": "^3.43.3",
+    "@types/node": "^17.0.23",
+    "faker": "^6.6.6"
+  }
+}
