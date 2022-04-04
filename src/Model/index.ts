@@ -1,4 +1,4 @@
-import { User } from './User';
+import { User } from '../utils/User';
 import { Company } from './Company';
 import { CustomMap } from './CustomMap';
 

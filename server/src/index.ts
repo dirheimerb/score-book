@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { router } from './routes/loginRoutes';
+import { router } from './loginRoutes';
 import bodyParser from 'body-parser';
 import cookieSession from 'cookie-session';
 

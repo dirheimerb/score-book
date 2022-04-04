@@ -9,12 +9,13 @@
     "start": "concurrently npm:start:*"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bradley Dirheimer",
   "license": "ISC",
   "dependencies": {
     "@types/body-parser": "^1.19.2",
     "@types/cookie-session": "^2.0.44",
     "@types/express": "^4.17.13",
+    "axios": "^0.26.1",
     "body-parser": "^1.20.0",
     "concurrently": "^7.1.0",
     "cookie-session": "^2.0.0",

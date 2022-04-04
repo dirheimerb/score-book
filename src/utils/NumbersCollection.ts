@@ -1,5 +1,5 @@
 import { Sorter } from '../Controller/Sorter';
-import { NumbersCollection } from './NumbersCollection';
+import { NumbersCollection } from '../Controller/NumbersCollection';
 import { CharactersCollection } from './CharactersCollection';
 import { LinkedListCollection } from './LinkedListCollection';
 
