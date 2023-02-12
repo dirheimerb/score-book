@@ -4,7 +4,7 @@
     "start:json": "json-server -w db.json"
   },
   "devDependencies": {
-    "json-server": "^0.15.0",
+    "json-server": "^0.17.1",
     "typescript": "^3.5.3"
   },
   "dependencies": {
